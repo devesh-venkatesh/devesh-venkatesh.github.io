@@ -1,0 +1,55 @@
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 500%;
+  width: fit-content;
+
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 400%;
+  width: fit-content;
+
+  color: whitesmoke;
+}
+
+.songs {
+  font-family: 'Righteous', cursive;
+  font-size: 200%;
+  width: fit-content;
+  color: whitesmoke;
+}
+
+#intro {
+  /* The image used */
+  background-image: url(images/bedroom.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#projects {
+  background-image: url(images/field.jpg);
+  height: 100%;
+}
+
+#music {
+  /* The image used */
+  background-image: url(images/bedroom.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
