@@ -53,30 +53,3 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-@media (max-width: 578px) {
-  h1 {
-    font-size: 250%;
-  }
-
-  h2 {
-    font-size: 200%;
-  }
-
-  .songs {
-    font-size: 100%;
-  }
-
-  body {
-    background-image: url(images/bedroom.jpg);
-
-    /* Full height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
