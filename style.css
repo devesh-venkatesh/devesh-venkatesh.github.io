@@ -1,55 +1,104 @@
 h1 {
-  font-family: 'Righteous', cursive;
-  font-size: 500%;
+  font-family: 'DM Mono', monospace;
+  font-size: 4em;
   width: fit-content;
 
-  color: whitesmoke;
+  color: #dfdfdf;
+  font-weight: bold;
+
+  text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.55);
 }
 
 h2 {
-  font-family: 'Righteous', cursive;
+  font-family: 'DM Mono', monospace;
   font-size: 400%;
   width: fit-content;
 
-  color: whitesmoke;
+  color: #dfdfdf;
+  font-weight: bold;
+  text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.55);
 }
 
 .songs {
-  font-family: 'Righteous', cursive;
+  font-family: 'DM Mono', monospace;
   font-size: 200%;
   width: fit-content;
-  color: whitesmoke;
+  color: #dfdfdf;
+  font-weight: bold;
+  text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.55);
 }
 
 #intro {
   /* The image used */
-  background-image: url(images/bedroom.jpg);
+  background: linear-gradient(180deg, #324f70 0%, #343270 100%);
 
   /* Full height */
   height: 100%;
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+}
+
+#intro-title {
+  position: relative;
+  width: 70%;
+  height: 97px;
+  left: 317px;
+  top: 250px;
+
+  font-family: 'DM Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4em;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+
+  color: #dfdfdf;
+
+  text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.55);
+}
+
+#intro-subtitle {
+  position: relative;
+  width: 70%;
+  height: 97px;
+  left: 317px;
+  top: 315px;
+
+  font-family: 'DM Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+
+  color: #dfdfdf;
+
+  text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.55);
 }
 
 #projects {
-  background-image: url(images/field.jpg);
+  font-family: 'DM Mono', monospace;
+  background: linear-gradient(180deg, #343270 0%, #343270 0.01%, #326e70 100%);
   height: 100%;
 }
 
 #music {
   /* The image used */
-  background-image: url(images/bedroom.jpg);
+  font-family: 'DM Mono', monospace;
+  background: linear-gradient(180deg, #326e70 0%, #4f7db0 100%);
 
   /* Full height */
   height: 100%;
 
-  /* Create the parallax scrolling effect */
+  /* Create the parallax scrolling effect
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
