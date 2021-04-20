@@ -1,14 +1,3 @@
-h1 {
-  font-family: 'DM Mono', monospace;
-  font-size: 4em;
-  width: fit-content;
-
-  color: #dfdfdf;
-  font-weight: bold;
-
-  text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.55);
-}
-
 h2 {
   font-family: 'DM Mono', monospace;
   font-size: 400%;
@@ -20,6 +9,7 @@ h2 {
 }
 
 .songs {
+  display: flex;
   font-family: 'DM Mono', monospace;
   font-size: 200%;
   width: fit-content;
@@ -30,10 +20,13 @@ h2 {
 
 #intro {
   /* The image used */
-  background: linear-gradient(180deg, #324f70 0%, #343270 100%);
+  background: linear-gradient(180deg, #ffdada 0%, rgba(255, 255, 255, 0) 100%),
+    url(./images/minimal-wallpaper-20081414181441-scaled.jpg);
 
+  background-position: center;
+  background-size: cover;
   /* Full height */
-  height: 100%;
+  height: fit-content;
 
   /* Create the parallax scrolling effect
   background-attachment: fixed;
@@ -42,63 +35,112 @@ h2 {
   background-size: cover; */
 }
 
-#intro-title {
-  position: relative;
-  width: 70%;
-  height: 97px;
-  left: 317px;
-  top: 250px;
-
-  font-family: 'DM Mono', monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 4em;
-  line-height: 63px;
+header {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding-top: 25%;
+}
 
-  color: #dfdfdf;
+#intro-title {
+  /* position: relative;
+  width: fit-content;
+  height: fit-content;
+  left: calc(50% - 369px / 2 - 0.5px);
+  top: calc(50% - 55px / 2 - 47.5px); */
 
-  text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.55);
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 55px;
+  /* identical to box height */
+
+  display: flex;
+  flex-direction: row;
+
+  color: #ffffff;
+
+  text-shadow: -4px 4px 6px rgba(0, 0, 0, 0.55);
 }
 
 #intro-subtitle {
-  position: relative;
-  width: 70%;
-  height: 97px;
-  left: 317px;
-  top: 315px;
+  /* position: relative;
+  width: fit-content;
+  height: fit-content;
+  left: calc(50% - 618px / 2);
+  top: calc(50% - 41px / 0.5 + 0.5px);
+  text-align: center; */
 
-  font-family: 'DM Mono', monospace;
+  font-family: Rokkitt;
   font-style: normal;
-  font-weight: bold;
-  font-size: 3em;
-  line-height: 47px;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  /* identical to box height */
+
   display: flex;
-  align-items: center;
+  flex-direction: row;
 
-  color: #dfdfdf;
+  color: #ffffff;
 
-  text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.55);
+  text-shadow: -4px 4px 5px rgba(0, 0, 0, 0.55);
+}
+
+#navbarNavAltMarkup {
+  justify-content: flex-end;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 125%;
+  color: #2f2f2f;
 }
 
 #projects {
-  font-family: 'DM Mono', monospace;
-  background: linear-gradient(180deg, #343270 0%, #343270 0.01%, #326e70 100%);
-  height: 100%;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: normal;
+
+  background: conic-gradient(
+    from 218.33deg at 50% 50%,
+    rgba(137, 115, 137, 0.93) 0deg,
+    #c69393 360deg
+  );
+  height: fit-content;
+}
+
+#projects h1 {
+  text-shadow: -4px 4px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 48px;
+  padding: 0.75em;
 }
 
 #music {
   /* The image used */
-  font-family: 'DM Mono', monospace;
-  background: linear-gradient(180deg, #326e70 0%, #4f7db0 100%);
-
-  /* Full height */
-  height: 100%;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: normal;
+  background: conic-gradient(
+    from 321.69deg at 50% 50%,
+    rgba(137, 115, 137, 0.93) 0deg,
+    #c69393 360deg
+  );
+  height: fit-content;
 
   /* Create the parallax scrolling effect
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
+}
+
+#music h1 {
+  text-shadow: -4px 4px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 48px;
+  padding: 0.75em;
 }
